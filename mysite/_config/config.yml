@@ -1,0 +1,20 @@
+---
+Name: mysite
+After: 'framework/*','cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+RootURLController:
+  default_homepage_link: 'accueil'
+SSViewer:
+  theme: 'singebleu'
+SiteConfig:
+  extensions:
+    - SiteConfigExtras
+UserDefinedForm:
+  extensions:
+    - UserDefinedFormExtension
+UserDefinedForm_Controller:
+  extensions:
+    - UserDefinedFormExtension_Controller
